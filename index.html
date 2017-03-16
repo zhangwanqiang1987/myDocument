@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="fastclick.js"></script>
+    <script>
+        //解决click事件300ms延迟的问题
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function(){
+                FastClick.attach(document.body);
+            }, false);
+        }
+    </script>
+</head>
+<body>
+<div id="head">
+    <div class="music" id="music">
+        <audio id="audioFir" src="image/God.mp3" preload="none" loop/>
+    </div>
+    <div class="homePage">
+        <div id="sound">
+            <audio src="image/saomiao1.mp3" id="soundTwo"></audio>
+        </div>
+        <!--首页扫描加载-->
+        <div id="loading">
+            <p id="scanning">扫描中...</p>
+            <div class="processBox" id="processBox">
+                <img src="image/zhiwen2.png" alt=""/>
+            </div>
+            <div class="process" id="process">
+                <img id="img" src="image/finger_line1.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    <ul id="main">
+        <li id="first">
+            <!--基本信息-->
+
+            <div id="contents">
+                <div id="eye" class="eye animated fadeIn">
+                    <img src="image/eye1.jpg" alt=""/>
+                </div>
+                <div id="me" class="me">
+                    <img src="image/me.png" alt=""/>
+                </div>
+                <div id="flower">
+                    <img id="" src="image/flower.jpg" alt=""/>
+                </div>
+                <div class="bg">
+                    <span id="font">RESUME INTRODUCES</span>
+                    <img id="p1_bg" src="image/p1_bg.png"/>
+                </div>
+                <ul id="list">
+                    <li>基本资料</li>
+                    <li>工作经验</li>
+                    <li>技能展示</li>
+                    <li>个人介绍</li>
+                    <li>谢谢观赏</li>
+                </ul>
+                <img src="image/arr.png" alt="" class="p1_arr"/>
+            </div>
+        </li>
+
+        <!--个人资料-->
+        <li>
+            <div class="page_Two">
+                <div id="pageBg" class="pageBg">
+                    <img src="image/p2_bg.jpg" alt=""/>
+                </div>
+                <div id="Logo" class="Logo">
+                    <img src="image/Logo.png" alt=""/>
+                </div>
+                <div id="font2" class="font2">
+                    <span>THE BASIC INFORMATION</span>
+                </div>
+                <div class="a2">
+                    <p>姓名：张万强</p>
+
+                    <p>性别：  男</p>
+
+                    <p>年龄：  29</p>
+
+                    <p>生日：  1月24日</p>
+
+                    <p>毕业院校：  河北经贸大学</p>
+                </div>
+                <img src="image/arr.png" alt="" class="p1_arr"/>
+            </div>
+        </li>
+
+        <!--工作经验-->
+        <li>
+            <div class="page_three">
+                <div class="pageBg3">
+                    <img src="image/p3_bg.jpg" alt=""/>
+                </div>
+                <div id="font3" class="font3">
+                    <p>无论走多远</p>
+
+                    <p>都不要忘记</p>
+
+                    <p>当初为什么出发</p>
+                </div>
+                <div class="point">
+                    <div class="point_img">
+                        <img src="image/dian.png" alt=""/>
+                    </div>
+                    <div class="data">
+                         <p>2014-2015</p>
+                        <p>北京敞亮装饰有限公司</p>
+                        <p>前端开发工程师</p>
+                    </div>
+                </div>
+                <div class="point2">
+                    <div class="point_img">
+                        <img src="image/dian.png" alt=""/>
+                    </div>
+                    <div class="data">
+                        <p>2015-2017</p>
+                        <p>北京天天有余科技有限公司</p>
+                        <p>前端开发工程师</p>
+                    </div>
+                </div>
+                <img src="image/arr.png" alt="" class="p1_arr"/>
+            </div>
+        </li>
+
+        <!--技能展示-->
+        <li>
+            <div class="pageFour">
+                <div class="pageBg4" id="pageBg4">
+                    <img src="image/p4_bg.jpg" alt=""/>
+                </div>
+                    <div class="imgList">
+                        <img class="img_1" src="image/tubiao1.png" alt=""/>
+                        <img class="img_2" src="image/tubiao2.png" alt=""/>
+                        <img class="img_3" src="image/tubiao3.png" alt=""/>
+                        <img class="img_4" src="image/tubiao4.png" alt=""/>
+                    </div>
+                    <div class="power">
+                        <p class="ps">70%</p>
+                        <P class="js">80%</P>
+                        <p class="node">80%</p>
+                        <P class="max">70%</P>
+                    </div>
+                <div class="skill">
+                    <p class="ps1">PS</p>
+                    <P class="js1">JS</P>
+                    <p class="node1">CSS</p>
+                    <P class="max1">AJAX</P>
+                </div>
+                <div class="eyeBg" id="eyeBg">
+                    <img src="image/eyebg.jpg" alt=""/>
+                </div>
+                <img src="image/arr.png" alt="" class="p1_arr"/>
+            </div>
+        </li>
+
+        <!--个人介绍-->
+        <li>
+            <div class="pageFive" id="pageFive">
+                <div class="pageBg5" id="pageBg5">
+                    <img src="image/p5_bg.png" alt=""/>
+                </div>
+                <div class="pageBg5_2" id="pageBg5_2">
+                    <img src="image/p5_bg1.png" alt=""/>
+                </div>
+                <div class="pageBg5_3" id="pageBg5_3">
+                    <img src="image/introduce.png" alt=""/>
+                </div>
+                <div class="introduce" id="introduce">
+                    <p>个人介绍</p>
+                </div>
+                <div class="detail" id="detail">
+                    <p>  责任心强，有自己的独特思维和见解，追求个性，乐观开朗，善于表达自己的看法，做事追求完美，善于帮助别人</p>
+                </div>
+                <img src="image/arr.png" alt="" class="p1_arr"/>
+            </div>
+        </li>
+        <!--魔方-->
+        <li>
+            <div class="cube" id="cube">
+                <img src="image/cubeBg.jpg" alt=""/>
+                <ul id="cubeBox">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
